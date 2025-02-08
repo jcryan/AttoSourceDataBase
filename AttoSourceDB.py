@@ -109,6 +109,21 @@ HHGData['feng_generation_2009']={
           },
     }
 
+HHGData['mashiko_exterme_2009']={
+       'Duration': [107],
+       'PulseEng': [None],
+      'PhotonEng': [70],
+           'type': 'IAP',
+         'method': {'generation': 'DOG', 'meterology': 'FROG-CRAB'},      
+      'Reference': {
+           'author': 'Mashikp, H.', 
+          'journal': 'Opt. Lett.',
+              'vol': '34',
+             'page': '3337-3339',
+             'year': '2009',
+          },
+    }
+
 HHGData['ferrari_high-energy_2010']={
        'Duration': [150],
        'PulseEng': [2.1E-9],
@@ -168,7 +183,6 @@ HHGData['takahashi_attosecond_2013']={
              'year': '2013',
           },
     }
-
 
 HHGData['teichmann_0.5-keV_2016']={
        'Duration': [None, None],
@@ -354,6 +368,21 @@ HHGData['kretschmar_high-flux_2024']={
           },
     }
 
+HHGData['wang_ultrashort_2024']={
+       'Duration': [51],
+       'PulseEng': [None],
+      'PhotonEng': [100],
+           'type': 'IAP',
+         'method': {'generation': 'GDOG', 'meterology': 'qPROOF'},                   
+      'Reference': {
+           'author': 'Wang, X.', 
+          'journal': 'Ultrafast Science',
+              'vol': '4',
+             'page': '0080',
+             'year': '2024',
+          },
+    }
+
 
 FELData['huang_generating_2017']={
        'Duration': [None],
@@ -430,4 +459,3 @@ FELData['yan_terawatt-attosecond_2024']={
              'year': '2024',
           },
     }
-
