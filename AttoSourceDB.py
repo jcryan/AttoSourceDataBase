@@ -230,6 +230,21 @@ HHGData['barillot_towards_2017']={
           },
     }
 
+HHGData['cousins_attosecond_2017']={
+       'Duration': [23],
+       'PulseEng': [5.6E5 * (300*1.60218E-19)],
+      'PhotonEng': [300],
+           'type': 'IAP',
+         'method': {'generation': 'ionization gating', 'meterology': 'FROG-CRAB'},             
+      'Reference': {
+           'author': 'Cousins, S.', 
+          'journal': 'Phys. Rev. X',
+              'vol': '7',
+             'page': '041030',
+             'year': '2017',
+          },
+    }
+
 HHGData['gaumnitz_streaking_2017']={
        'Duration': [47],
        'PulseEng': [3E-12],
