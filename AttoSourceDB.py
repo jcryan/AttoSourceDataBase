@@ -1,3 +1,4 @@
+
 from collections import OrderedDict
 
 HHGData = OrderedDict()
@@ -352,22 +353,6 @@ HHGData['ye_high-flux_2022']={
           },
     }
 
-HHGData['wang_ultashort_2024']={
-       'Duration': [51],
-       'PulseEng': [None],
-      'PhotonEng': [100],
-           'type': 'IAP',
-         'method': {'generation': 'GDOG', 'meterology': 'qPROOF'},                   
-      'Reference': {
-           'author': 'Wang, X.', 
-          'journal': 'Ultafast Science',
-              'vol': '5',
-             'page': '0080',
-             'year': '2024',
-          },
-    }
-
-
 HHGData['kretschmar_high-flux_2024']={
        'Duration': [240,240],
        'PulseEng': [3.75E7 * (20*1.60218E-19), 2.8E7 * (33.5*1.60218E-19)],
@@ -398,7 +383,6 @@ HHGData['wang_ultrashort_2024']={
           },
     }
 
-
 FELData['huang_generating_2017']={
        'Duration': [None],
        'PulseEng': [10E-6],
@@ -414,7 +398,7 @@ FELData['huang_generating_2017']={
           },
     }
 
-FELData['duris_tunable_2019']={
+FELData['duris_tunable_2020']={
        'Duration': [480, 280],
        'PulseEng': [25E-6,10E-6],
       'PhotonEng': [570,905],
