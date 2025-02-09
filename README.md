@@ -10,7 +10,8 @@ AttoSourcePlot.py provides some useful plotting functions for filtering the data
 
 # Citations
 If you use this tool for a publication, remember to cite the original work which describes the source. The keys of the HHGData and FELData dictionaries refer to cite keys in the included bib file (references/Attosecond Source List.bib). There is an additional example tex file to demonstrate the referencing.   
-In addition to citing the original work, it is apperciated if you cite our [book chapter](https://doi.org/10.1016/bs.aamop.2022.05.001) in any publications where you use the database tools. 
+In addition to citing the original work, it is apperciated if you cite our [book chapter](https://doi.org/10.1016/bs.aamop.2022.05.001) in any publications where you use the database tools:
+James P. Cryan, Taran Driver, Joseph Duris, Zhaoheng Guo, Siqi Li, Jordan T. O'Neal, Agostino Marinelli, Chapter One - The development of attosecond XFELs for understanding ultrafast electron motion, Editor(s): Louis F. DiMauro, Hélène Perrin, Susanne F. Yelin, Advances In Atomic, Molecular, and Optical Physics, Academic Press, Volume 71, 2022, Pages 1-64, https://doi.org/10.1016/bs.aamop.2022.05.001.
 
 # New Submissions
 We welcome suggestions for additional sources to include in the database. If you have find (or develop) a source not included in the database, please use this [simple form](https://forms.gle/GpaRaPvtotJV52QV6) to provide details, and we will be happy to include it. Please note, the database is largely focused on sources which produce pulse with sub-femtosecond duration, are published in peer-reviewed journals, and include a measurement of both the per-pulse energy and a pulse duration using an established method, for example linear streaking.    
