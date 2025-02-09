@@ -1,4 +1,3 @@
-
 from collections import OrderedDict
 
 HHGData = OrderedDict()
@@ -206,12 +205,12 @@ HHGData['ossiander_attosecond_2017']={
        'PulseEng': [0.3E-9],
       'PhotonEng': [113],
            'type': 'IAP',
-         'method': {'generation': '', 'meterology': ''},       
+         'method': {'generation': 'amplitude gating', 'meterology': 'FROG-CRAB'},       
       'Reference': {
            'author': 'Ossiander, M.', 
           'journal': 'Nat. Phys.',
-              'vol': '',
-             'page': '',
+              'vol': '13',
+             'page': '280-285',
              'year': '2017',
           },
     }
