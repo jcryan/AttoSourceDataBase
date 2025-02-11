@@ -1,9 +1,15 @@
 
 # Database of Attosecond Light Sources
-This database developed as part of a literature reveiew for our recent [book chapter](https://doi.org/10.1016/bs.aamop.2022.05.001) which presents a survey of existing lightsources with sub-femtosecond duration. The initial survey effort focused on isolated attosecond pulse (IAP) sources, but several notable attosecond pulse train (APT) demonstrations have now been included. Additionally, the initial survey also focused on sources which reported both a meausred pulse energy (or photon flux) and a measurement of the pulse duration. We have tried to keep this requirement, but we have included some notable achievements where either a photon flux or pulse duration measurement is missing.   
+This database developed as part of a literature reveiew for our recent [book chapter](https://doi.org/10.1016/bs.aamop.2022.05.001) which presents a survey of existing lightsources with sub-femtosecond duration. The initial survey effort focused on isolated attosecond pulse (IAP) sources, but several notable attosecond pulse train (APT) demonstrations have now been included. The initial survey also focused on sources which reported both a meausred pulse energy (or photon flux) and a measurement of the pulse duration. We have tried to stick with this requirement, but we have included some notable achievements where either a photon flux or pulse duration measurement is missing.   
 
 # The Database
-The database consists of two dictionaries (HHGData and FELData) included in AttoSourceDB.py. These can be imported and used to generate plots.  
+The database consists of two dictionaries (HHGData and FELData) included in AttoSourceDB.py. These can be imported and used to generate plots. The keys of the dictionary are a unique identifer related to the bib reference (see citations). Each entry in the dictionary is a dictionary with keys:
+'Duration': list of pulse durations measured in the reference
+'PulseEng': A list of pulse energy described in the reference
+'PhotonEng': A list of central photon energies for the source
+'type': Is the source and isolated attosecond pulse ('IAP') or an attosecond pulse train ('APT'). 
+'method': a dictionary describng the generation method and the meterology method. 
+'Reference': a dictionay with entries for the first 'author', 'journal' name, 'vol', 'page', and 'year' information
 
 # Plotting Tools
 AttoSourcePlot.py provides some useful plotting functions for filtering the database and creating various plots.  
