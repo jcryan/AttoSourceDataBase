@@ -4,11 +4,17 @@ This database developed as part of a literature reveiew for our recent [book cha
 
 # The Database
 The database consists of two dictionaries (HHGData and FELData) included in AttoSourceDB.py. These can be imported and used to generate plots. The keys of the dictionary are a unique identifer related to the bib reference (see citations). Each entry in the dictionary is a dictionary with keys:
+
 'Duration': list of pulse durations measured in the reference
+
 'PulseEng': A list of pulse energy described in the reference
+
 'PhotonEng': A list of central photon energies for the source
+
 'type': Is the source and isolated attosecond pulse ('IAP') or an attosecond pulse train ('APT'). 
+
 'method': a dictionary describng the generation method and the meterology method. 
+
 'Reference': a dictionay with entries for the first 'author', 'journal' name, 'vol', 'page', and 'year' information
 
 # Plotting Tools
