@@ -64,7 +64,7 @@ HHGData['sola_controlling_2006']={
           },
     }
 
-HHGData['gouliemakis_single-cycle_2008']={
+HHGData['goulielmakis_single-cycle_2008']={
        'Duration': [80],
        'PulseEng': [0.5E-12],
       'PhotonEng': [80],
@@ -154,7 +154,7 @@ HHGData['gilbertson_isolated_2010']={
           },    
     }
 
-HHGData['tzallas_exterme-ultraviolet_2011']={
+HHGData['tzallas_extreme-ultraviolet_2011']={
        'Duration': [1500],
        'PulseEng': [100E-9],
       'PhotonEng': [20],
@@ -184,7 +184,7 @@ HHGData['takahashi_attosecond_2013']={
           },
     }
 
-HHGData['teichmann_0.5-keV_2016']={
+HHGData['teichmann_05-kev_2016']={
        'Duration': [None, None],
        'PulseEng': [2.9E-12,0.9E-12],
       'PhotonEng': [300,350],
@@ -230,7 +230,7 @@ HHGData['barillot_towards_2017']={
           },
     }
 
-HHGData['cousins_attosecond_2017']={
+HHGData['cousin_attosecond_2017']={
        'Duration': [23],
        'PulseEng': [5.6E5 * (300*1.60218E-19)],
       'PhotonEng': [300],
@@ -352,7 +352,7 @@ HHGData['ye_high-flux_2022']={
           },
     }
 
-HHGData['kretschmar_high-flux_2024']={
+HHGData['kretschmar_compact_2024']={
        'Duration': [240,240],
        'PulseEng': [3.75E7 * (20*1.60218E-19), 2.8E7 * (33.5*1.60218E-19)],
       'PhotonEng': [20,33.5],
@@ -397,6 +397,21 @@ FELData['huang_generating_2017']={
           },
     }
 
+FELData['marinelli_experimental_2017']={
+       'Duration': [None],
+       'PulseEng': [5E-6],
+      'PhotonEng':[5600],
+           'type': 'IAP',
+         'method': {'generation': 'slotted foil beam shaping', 'meterology': None},    
+      'Reference': {
+           'author': 'Marinelli, A.', 
+          'journal': 'Appl. Phys. Lett.',
+              'vol': '111',
+             'page': '151101',
+             'year': '2017',
+        },
+    }
+
 FELData['duris_tunable_2020']={
        'Duration': [480, 280],
        'PulseEng': [25E-6,10E-6],
@@ -412,6 +427,21 @@ FELData['duris_tunable_2020']={
           },
     }
 
+FELData['malyzhenkov_single-_2020']={
+       'Duration': [None],
+       'PulseEng': [1.3E-6],
+      'PhotonEng': [7360],
+           'type': 'IAP',
+         'method': {'generation': 'Nonlinear compression', 'meterology': None},                         
+      'Reference': {
+           'author': 'Malyzhenkov, A.', 
+          'journal': 'Phys. Rev. Res.',
+              'vol': '2',
+             'page': '042018(R)',
+             'year': '2020',
+          },    
+    
+    }
 FELData['maroju_attosecond_2020']={
        'Duration': [210],
        'PulseEng': [16E-6],
@@ -426,6 +456,21 @@ FELData['maroju_attosecond_2020']={
              'year': '2020',
           },    
     
+    }
+
+FELData['prat_coherent_2023']={
+       'Duration': [400, 200],
+       'PulseEng': [20E-6,5E-6],
+      'PhotonEng': [642,1111],
+           'type': 'IAP',
+         'method': {'generation': 'nonlinear compression', 'meterology': 'estimated from longitudianl phase space measurement'}, 
+      'Reference': {
+           'author': 'Prat, E.', 
+          'journal': 'APL Photonics',
+              'vol': '8',
+             'page': '111302',
+             'year': '2023',
+          },
     }
 
 FELData['franz_terawatt-scale_2024']={
