@@ -18,7 +18,8 @@ The database consists of two dictionaries (HHGData and FELData) included in Atto
 'Reference': a dictionay with entries for the first 'author', 'journal' name, 'vol', 'page', and 'year' information
 
 # Plotting Tools
-AttoSourcePlot.py provides some useful plotting functions for filtering the database and creating various plots.  
+AttoSourcePlot.py contains a class AttoSourcePlot which has several attributes for filtering and plotting the database.
+AttoSourceFig.py provides an example of how to use this class 
 
 # Citations
 If you use this tool for a publication, remember to cite the original work which describes the source. The keys of the HHGData and FELData dictionaries refer to cite keys in the included bib file (references/Attosecond Source List.bib). There is an additional example tex file to demonstrate the referencing.   
