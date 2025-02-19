@@ -1,4 +1,4 @@
-from AttoSourceFig import AttoSourcePlot
+from AttoSourcePlot import AttoSourcePlot
 from adjustText import adjust_text
 
 atto = AttoSourcePlot(source_type='HHG', pulse_type='IAP', x_axis='PhotonEng', y_axis='PulseEng')
