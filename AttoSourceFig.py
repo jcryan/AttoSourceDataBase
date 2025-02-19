@@ -29,8 +29,6 @@ class AttoSourcePlot:
         p_type = ['IAP', 'APT']
         ax_type = ['PhotonEng', 'PulseEng', 'Duration', 'year']
         
-        self.set_source(source_type)
-            
         if (pulse_type in p_type):
             self.pulse_type = pulse_type
         else:
@@ -39,35 +37,68 @@ class AttoSourcePlot:
         
         if (x_axis in ax_type):
             self.x=x_axis
-            if (x_axis == 'year'):
-                for key in self.DB.keys():
-                    self.DB[key]['year'] = self.DB[key]['Reference']['year']
         else:
             print('Error: x_axis must be either ' + p_type)
             return
         
         if (y_axis in ax_type):
             self.y=y_axis
-            if (y_axis == 'year'):
-                for key in self.DB.keys():
-                    self.DB[key]['year'] = self.DB[key]['Reference']['year']
         else:
             print('Error: y_axis must be either ' + p_type)
             return
+        
+        self.set_source(source_type)
                 
-
+    def _get_year(self):
+        if (self.x == 'year') or (self.y == 'year'):
+            for key in self.DB.keys():
+                self.DB[key]['year'] = [int(self.DB[key]['Reference']['year'])]*len(self.DB[key]['Duration'])
+        return
+        
     def set_source(self, source_type):
+        """
+        Change source type between 'FEL' or 'HHG'
+
+        Parameters
+        ----------
+        source_type : TYPE
+            'HHG' or 'FEL'.
+
+        """
         s_type = ['HHG', 'FEL']
         if (source_type in s_type): 
             if source_type == 'HHG':
                 self.DB = HHGData
             elif source_type == 'FEL':
                 self.DB = FELData
+            self._get_year()
         else:
             print('Error: source_type must be either ' + s_type)
             return
         
     def plot(self, plot_labels='a', plot_markers='bo', x_scale='log', y_scale='log', new_fig=False):
+        """
+        Plot the data in the database
+
+        Parameters
+        ----------
+        plot_labels : string, optional
+            Label for legend. The default is 'a'.
+        plot_markers : string, optional
+            plot marker type. The default is 'bo'.
+        x_scale : string, optional
+            x-axis scale, 'linear' or 'log'. The default is 'log'.
+        y_scale : string, optional
+            y-axis scale, 'linear' or 'log'. The default is 'log'.
+        new_fig : bool, optional
+            Create a new figure, or plot plot on the existing figure. If there is no existing figure, a new figure is created. The default is False.
+
+        Returns
+        -------
+        out : TYPE
+            DESCRIPTION.
+
+        """
         
         label_index = ord(plot_labels[0])
         
@@ -93,17 +124,16 @@ class AttoSourcePlot:
                     x=self.DB[key][self.x]
                     y=self.DB[key][self.y]
                     
-                    if x_scale == 'log' and y_scale == 'log':
-                        self.ax.loglog(x,y, plot_markers, label=(point_label+' ['+self.DB[key]['Reference']['author'][:-4]+', ('+self.DB[key]['Reference']['year']+')]'))
-                    elif x_scale == 'lin' and y_scale == 'lin':
-                        self.ax.plot(x,y, plot_markers, label=(point_label+' ['+self.DB[key]['Reference']['author'][:-4]+', ('+self.DB[key]['Reference']['year']+')]'))                                              
+                    self.ax.plot(x,y, plot_markers, label=(point_label+' ['+self.DB[key]['Reference']['author'][:-4]+', ('+self.DB[key]['Reference']['year']+')]'))                                              
                     for xy in  zip(x,y): 
                         self.texts.append(self.ax.annotate( point_label, xy=xy, textcoords='data'))     
                     label_index+=1
                     self.cite_key+=(key+', ')
+        self.ax.set_xscale(x_scale)
+        self.ax.set_yscale(y_scale)
         return
     
-    def emblish(self):
+    def decorate(self):
         
         if (not hasattr(self,'fig')):
             print('No figure to embelish')
