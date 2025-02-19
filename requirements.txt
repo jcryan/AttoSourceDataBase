@@ -1,0 +1,5 @@
+numpy
+collections
+matplotlib
+adjustText
+xraydb
