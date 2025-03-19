@@ -5,8 +5,8 @@ FELData = OrderedDict()
 
 HHGData['hentschel_attosecond_2001']={
        'Duration':[650],
-       'PulseEng':[1.5E-10],
-      'PhotonEng': [90],
+       'PulseEnergy':[1.5E-10],
+      'PhotonEnergy': [90],
            'type': 'IAP',
          'method': {'generation': 'amplitude gating', 'meterology': 'linear streaking auto-correlation'},
       'Reference': {
@@ -20,8 +20,8 @@ HHGData['hentschel_attosecond_2001']={
 
 HHGData['sekikawa_nonlinear_2004']={
        'Duration': [950],
-       'PulseEng': [2E-9],
-      'PhotonEng': [28],
+       'PulseEnergy': [2E-9],
+      'PhotonEnergy': [28],
            'type': 'IAP',
          'method': {'generation': 'amplitude gating', 'meterology': 'linear streaking auto-correlation'},
       'Reference': {
@@ -35,8 +35,8 @@ HHGData['sekikawa_nonlinear_2004']={
 
 HHGData['sansone_isolated_2006']={
        'Duration': [130],
-       'PulseEng': [0.7E-10],
-      'PhotonEng': [35],
+       'PulseEnergy': [0.7E-10],
+      'PhotonEnergy': [35],
            'type': 'IAP',
          'method': {'generation': 'polarization gating', 'meterology': 'FROG-CRAB'},
       'Reference': {
@@ -51,8 +51,8 @@ HHGData['sansone_isolated_2006']={
 
 HHGData['sola_controlling_2006']={
        'Duration': [260],
-       'PulseEng': [70E-12],
-      'PhotonEng': [35],
+       'PulseEnergy': [70E-12],
+      'PhotonEnergy': [35],
            'type': 'IAP',
          'method': {'generation': 'polarization gating', 'meterology': None},      
       'Reference': {
@@ -66,8 +66,8 @@ HHGData['sola_controlling_2006']={
 
 HHGData['goulielmakis_single-cycle_2008']={
        'Duration': [80],
-       'PulseEng': [0.5E-12],
-      'PhotonEng': [80],
+       'PulseEnergy': [0.5E-12],
+      'PhotonEnergy': [80],
            'type': 'IAP',
          'method': {'generation': 'amplitude gating', 'meterology': 'FROG-CRAB'},      
       'Reference': {
@@ -81,8 +81,8 @@ HHGData['goulielmakis_single-cycle_2008']={
 
 HHGData['mashiko_double_2008']={
        'Duration': [130],
-       'PulseEng': [7E-9],
-      'PhotonEng': [38],
+       'PulseEnergy': [7E-9],
+      'PhotonEnergy': [38],
            'type': 'IAP',
          'method': {'generation': 'DOG', 'meterology': None},      
       'Reference': {
@@ -96,8 +96,8 @@ HHGData['mashiko_double_2008']={
 
 HHGData['feng_generation_2009']={
        'Duration': [260],
-       'PulseEng': [230E-12],
-      'PhotonEng': [40],
+       'PulseEnergy': [230E-12],
+      'PhotonEnergy': [40],
            'type': 'IAP',
          'method': {'generation': 'GDOG', 'meterology': 'FROG-CRAB'},      
       'Reference': {
@@ -111,8 +111,8 @@ HHGData['feng_generation_2009']={
 
 HHGData['mashiko_exterme_2009']={
        'Duration': [107],
-       'PulseEng': [None],
-      'PhotonEng': [70],
+       'PulseEnergy': [None],
+      'PhotonEnergy': [70],
            'type': 'IAP',
          'method': {'generation': 'DOG', 'meterology': 'FROG-CRAB'},      
       'Reference': {
@@ -126,8 +126,8 @@ HHGData['mashiko_exterme_2009']={
 
 HHGData['ferrari_high-energy_2010']={
        'Duration': [150],
-       'PulseEng': [2.1E-9],
-      'PhotonEng': [27],
+       'PulseEnergy': [2.1E-9],
+      'PhotonEnergy': [27],
            'type': 'IAP',
          'method': {'generation': 'ionization gating', 'meterology': 'FROG-CRAB'},      
       'Reference': {
@@ -141,8 +141,8 @@ HHGData['ferrari_high-energy_2010']={
 
 HHGData['gilbertson_isolated_2010']={
        'Duration': [160],
-       'PulseEng': [170E-12],
-      'PhotonEng': [40],
+       'PulseEnergy': [170E-12],
+      'PhotonEnergy': [40],
            'type': 'IAP',
          'method': {'generation': 'GDOG', 'meterology': 'FROG-CRAB'},      
       'Reference': {
@@ -156,8 +156,8 @@ HHGData['gilbertson_isolated_2010']={
 
 HHGData['tzallas_extreme-ultraviolet_2011']={
        'Duration': [1500],
-       'PulseEng': [100E-9],
-      'PhotonEng': [20],
+       'PulseEnergy': [100E-9],
+      'PhotonEnergy': [20],
            'type': 'APT',
          'method': {'generation': 'HHG', 'meterology': 'auto-correlation'},
       'Reference': {
@@ -171,8 +171,8 @@ HHGData['tzallas_extreme-ultraviolet_2011']={
 
 HHGData['takahashi_attosecond_2013']={
        'Duration': [375,500],
-       'PulseEng': [10E-6,1.3E-6],
-      'PhotonEng': [20,30],
+       'PulseEnergy': [10E-6,1.3E-6],
+      'PhotonEnergy': [20,30],
            'type': 'IAP',
          'method': {'generation': 'two-color HHG', 'meterology': 'auto-correlation'},      
       'Reference': {
@@ -186,8 +186,8 @@ HHGData['takahashi_attosecond_2013']={
 
 HHGData['teichmann_05-kev_2016']={
        'Duration': [None, None],
-       'PulseEng': [2.9E-12,0.9E-12],
-      'PhotonEng': [300,350],
+       'PulseEnergy': [2.9E-12,0.9E-12],
+      'PhotonEnergy': [300,350],
            'type': 'IAP',
          'method': {'generation': 'amplitude gating', 'meterology': None},       
       'Reference': {
@@ -202,8 +202,8 @@ HHGData['teichmann_05-kev_2016']={
 
 HHGData['ossiander_attosecond_2017']={
        'Duration': [130],
-       'PulseEng': [0.3E-9],
-      'PhotonEng': [113],
+       'PulseEnergy': [0.3E-9],
+      'PhotonEnergy': [113],
            'type': 'IAP',
          'method': {'generation': 'amplitude gating', 'meterology': 'FROG-CRAB'},       
       'Reference': {
@@ -217,8 +217,8 @@ HHGData['ossiander_attosecond_2017']={
 
 HHGData['barillot_towards_2017']={
        'Duration': [680],
-       'PulseEng': [100E-12],
-      'PhotonEng': [19.6],
+       'PulseEnergy': [100E-12],
+      'PhotonEnergy': [19.6],
            'type': 'IAP',
          'method': {'generation': 'amplitude gating', 'meterology': 'FROG-CRAB'},       
       'Reference': {
@@ -232,8 +232,8 @@ HHGData['barillot_towards_2017']={
 
 HHGData['cousin_attosecond_2017']={
        'Duration': [23],
-       'PulseEng': [5.6E5 * (300*1.60218E-19)],
-      'PhotonEng': [300],
+       'PulseEnergy': [5.6E5 * (300*1.60218E-19)],
+      'PhotonEnergy': [300],
            'type': 'IAP',
          'method': {'generation': 'ionization gating', 'meterology': 'FROG-CRAB'},             
       'Reference': {
@@ -247,8 +247,8 @@ HHGData['cousin_attosecond_2017']={
 
 HHGData['gaumnitz_streaking_2017']={
        'Duration': [47],
-       'PulseEng': [3E-12],
-      'PhotonEng': [120],
+       'PulseEnergy': [3E-12],
+      'PhotonEnergy': [120],
            'type': 'IAP',
          'method': {'generation': 'amplitude gating', 'meterology': 'FROG-CRAB'},             
       'Reference': {
@@ -262,8 +262,8 @@ HHGData['gaumnitz_streaking_2017']={
 
 HHGData['li_53-attosecond_2017']={
        'Duration': [53],
-       'PulseEng': [5E6 * (200*1.60218E-19)],
-      'PhotonEng': [200],
+       'PulseEnergy': [5E6 * (200*1.60218E-19)],
+      'PhotonEnergy': [200],
            'type': 'IAP',
          'method': {'generation': 'polarization gating', 'meterology': 'PROOF'},       
       'Reference': {
@@ -277,8 +277,8 @@ HHGData['li_53-attosecond_2017']={
 
 HHGData['bergues_tabletop_2018']={
        'Duration': [200],
-       'PulseEng': [3E-9],
-      'PhotonEng': [115],
+       'PulseEnergy': [3E-9],
+      'PhotonEnergy': [115],
            'type': 'IAP',
          'method': {'generation': 'ionization gating', 'meterology': None},             
       'Reference': {
@@ -292,8 +292,8 @@ HHGData['bergues_tabletop_2018']={
 
 HHGData['johnson_high-flux_2018']={
        'Duration': [None, None],
-       'PulseEng': [2E-12,0.2E-12],
-      'PhotonEng': [400,600],
+       'PulseEnergy': [2E-12,0.2E-12],
+      'PhotonEnergy': [400,600],
            'type': 'IAP',
          'method': {'generation': 'ionization gating', 'meterology': None},             
       'Reference': {
@@ -307,8 +307,8 @@ HHGData['johnson_high-flux_2018']={
 
 HHGData['jahn_towards_2019']={
        'Duration': [None],
-       'PulseEng': [None],
-      'PhotonEng': [None],
+       'PulseEnergy': [None],
+      'PhotonEnergy': [None],
            'type': None,
          'method': {'generation': 'relativistic mirror', 'meterology': None},             
       'Reference': {
@@ -324,8 +324,8 @@ HHGData['jahn_towards_2019']={
 
 HHGData['yang_strong-field_2021']={
        'Duration': [82, 241],
-       'PulseEng': [100E-12, 500E-12],
-      'PhotonEng': [70,45],
+       'PulseEnergy': [100E-12, 500E-12],
+      'PhotonEnergy': [70,45],
            'type': 'IAP',
          'method': {'generation': 'Amplitude Gating', 'meterology': None},                   
       'Reference': {
@@ -339,8 +339,8 @@ HHGData['yang_strong-field_2021']={
 
 HHGData['ye_high-flux_2022']={
        'Duration': [166],
-       'PulseEng': [51E-12],
-      'PhotonEng': [50],
+       'PulseEnergy': [51E-12],
+      'PhotonEnergy': [50],
            'type': 'APT',
          'method': {'generation': 'HHG', 'meterology': 'RABBITT'},                         
       'Reference': {
@@ -354,8 +354,8 @@ HHGData['ye_high-flux_2022']={
 
 HHGData['kretschmar_compact_2024']={
        'Duration': [240,240],
-       'PulseEng': [3.75E7 * (20*1.60218E-19), 2.8E7 * (33.5*1.60218E-19)],
-      'PhotonEng': [20,33.5],
+       'PulseEnergy': [3.75E7 * (20*1.60218E-19), 2.8E7 * (33.5*1.60218E-19)],
+      'PhotonEnergy': [20,33.5],
            'type': 'IAP',
          'method': {'generation': 'amplitude gating', 'meterology': 'auto-correlation'},                   
       'Reference': {
@@ -369,8 +369,8 @@ HHGData['kretschmar_compact_2024']={
 
 HHGData['wang_ultrashort_2024']={
        'Duration': [51],
-       'PulseEng': [None],
-      'PhotonEng': [100],
+       'PulseEnergy': [None],
+      'PhotonEnergy': [100],
            'type': 'IAP',
          'method': {'generation': 'GDOG', 'meterology': 'qPROOF'},                   
       'Reference': {
@@ -384,8 +384,8 @@ HHGData['wang_ultrashort_2024']={
 
 FELData['huang_generating_2017']={
        'Duration': [None],
-       'PulseEng': [10E-6],
-      'PhotonEng': [5600],
+       'PulseEnergy': [10E-6],
+      'PhotonEnergy': [5600],
            'type': 'IAP',
          'method': {'generation': 'nonlinear compression', 'meterology': None},                         
       'Reference': {
@@ -399,8 +399,8 @@ FELData['huang_generating_2017']={
 
 FELData['marinelli_experimental_2017']={
        'Duration': [None],
-       'PulseEng': [5E-6],
-      'PhotonEng':[5600],
+       'PulseEnergy': [5E-6],
+      'PhotonEnergy':[5600],
            'type': 'IAP',
          'method': {'generation': 'slotted foil beam shaping', 'meterology': None},    
       'Reference': {
@@ -414,8 +414,8 @@ FELData['marinelli_experimental_2017']={
 
 FELData['duris_tunable_2020']={
        'Duration': [480, 280],
-       'PulseEng': [25E-6,10E-6],
-      'PhotonEng': [570,905],
+       'PulseEnergy': [25E-6,10E-6],
+      'PhotonEnergy': [570,905],
            'type': 'IAP',
          'method': {'generation': 'Self-modulation', 'meterology': 'Angular Streaking'},                         
       'Reference': {
@@ -429,8 +429,8 @@ FELData['duris_tunable_2020']={
 
 FELData['malyzhenkov_single-_2020']={
        'Duration': [None],
-       'PulseEng': [1.3E-6],
-      'PhotonEng': [7360],
+       'PulseEnergy': [1.3E-6],
+      'PhotonEnergy': [7360],
            'type': 'IAP',
          'method': {'generation': 'Nonlinear compression', 'meterology': None},                         
       'Reference': {
@@ -444,8 +444,8 @@ FELData['malyzhenkov_single-_2020']={
     }
 FELData['maroju_attosecond_2020']={
        'Duration': [210],
-       'PulseEng': [16E-6],
-      'PhotonEng': [45],
+       'PulseEnergy': [16E-6],
+      'PhotonEnergy': [45],
            'type': 'APT',
          'method': {'generation': 'harmonic-lasing of seeded FEL', 'meterology': 'RABBITT-type'},                         
       'Reference': {
@@ -460,8 +460,8 @@ FELData['maroju_attosecond_2020']={
 
 FELData['prat_coherent_2023']={
        'Duration': [400, 200],
-       'PulseEng': [20E-6,5E-6],
-      'PhotonEng': [642,1111],
+       'PulseEnergy': [20E-6,5E-6],
+      'PhotonEnergy': [642,1111],
            'type': 'IAP',
          'method': {'generation': 'nonlinear compression', 'meterology': 'estimated from longitudianl phase space measurement'}, 
       'Reference': {
@@ -475,8 +475,8 @@ FELData['prat_coherent_2023']={
 
 FELData['franz_terawatt-scale_2024']={
        'Duration': [440],
-       'PulseEng': [500E-6],
-      'PhotonEng': [865],
+       'PulseEnergy': [500E-6],
+      'PhotonEnergy': [865],
            'type': 'IAP',
          'method': {'generation': 'Cathode-modulation with cascaded amplification', 'meterology': 'Angular Streaking'}, 
       'Reference': {
@@ -490,8 +490,8 @@ FELData['franz_terawatt-scale_2024']={
 
 FELData['yan_terawatt-attosecond_2024']={
        'Duration': [None],
-       'PulseEng': [180E-6],
-      'PhotonEng': [9000],
+       'PulseEnergy': [180E-6],
+      'PhotonEnergy': [9000],
            'type': 'IAP',
          'method': {'generation': 'non-linear compression', 'meterology': None}, 
       'Reference': {

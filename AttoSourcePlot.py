@@ -14,9 +14,9 @@ class AttoSourcePlot:
     pulse_type : str, optional
         DESCRIPTION. 'IAP' or 'APT' The default is 'IAP'.
     x_axis : TYPE, optional
-        DESCRIPTION. 'PhotonEng', 'PulseEng', 'Duration', or 'year'. The default is 'PhotonEng'.
+        DESCRIPTION. 'PhotonEnergy', 'PulseEnergy', 'Duration', or 'year'. The default is 'PhotonEnergy'.
     y_axis : TYPE, optional
-        DESCRIPTION. 'PhotonEng', 'PulseEng', 'Duration', or 'year'. The default is 'PulseEng'.
+        DESCRIPTION. 'PhotonEnergy', 'PulseEnergy', 'Duration', or 'year'. The default is 'PulseEnergy'.
     plot_type : TYPE, optional
         DESCRIPTION. 'loglog', 'loglin', 'linlog', or 'linlin'. The default is 'loglog'.
 
@@ -25,9 +25,9 @@ class AttoSourcePlot:
     None.
 
     """
-    def __init__(self, source_type='HHG', pulse_type='IAP', x_axis='PhotonEng', y_axis='PulseEng'):
+    def __init__(self, source_type='HHG', pulse_type='IAP', x_axis='PhotonEnergy', y_axis='PulseEnergy'):
         p_type = ['IAP', 'APT']
-        ax_type = ['PhotonEng', 'PulseEng', 'Duration', 'year']
+        ax_type = ['PhotonEnergy', 'PulseEnergy', 'Duration', 'year']
         
         if (pulse_type in p_type):
             self.pulse_type = pulse_type

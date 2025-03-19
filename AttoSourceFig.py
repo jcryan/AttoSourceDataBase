@@ -1,7 +1,7 @@
 from AttoSourcePlot import AttoSourcePlot
 from adjustText import adjust_text
 
-atto = AttoSourcePlot(source_type='HHG', pulse_type='IAP', x_axis='PhotonEng', y_axis='PulseEng')
+atto = AttoSourcePlot(source_type='HHG', pulse_type='IAP', x_axis='PhotonEnergy', y_axis='PulseEnergy')
 atto.plot(plot_labels='a', plot_markers='bo', x_scale='log', y_scale='log')
 
 atto.pulse_type = 'APT'
