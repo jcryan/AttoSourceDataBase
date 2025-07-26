@@ -352,6 +352,21 @@ HHGData['ye_high-flux_2022']={
           },
     }
 
+HHGData['xue_gigawatt-class_2022']={
+       'Duration': [226],
+       'PulseEnergy': [24E-6],
+      'PhotonEnergy': [70],
+           'type': 'IAP',
+         'method': {'generation': 'Waveform Synthesizer', 'meterology': 'FROG-CRAB'},                         
+      'Reference': {
+           'author': 'Xue, B.', 
+          'journal': 'Optica',
+              'vol': '9',
+             'page': '360-363',
+             'year': '2022',
+          },
+    }
+
 HHGData['kretschmar_compact_2024']={
        'Duration': [240,240],
        'PulseEnergy': [3.75E7 * (20*1.60218E-19), 2.8E7 * (33.5*1.60218E-19)],
@@ -411,6 +426,22 @@ FELData['marinelli_experimental_2017']={
              'year': '2017',
         },
     }
+
+
+FELData['hartmann_attosecond_2018']={
+    'Duration': [800],
+    'PulseEnergy': [64E-6],
+   'PhotonEnergy':[1180],
+        'type': 'IAP',
+      'method': {'generation': 'slotted foil beam shaping', 'meterology': 'angular streaking'},    
+   'Reference': {
+        'author': 'Hartmann, N.', 
+       'journal': 'Nat. Photon.',
+           'vol': '12',
+          'page': '215-220',
+          'year': '2018',
+     },
+ }
 
 FELData['duris_tunable_2020']={
        'Duration': [480, 280],
